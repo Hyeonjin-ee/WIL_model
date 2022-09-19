@@ -1,0 +1,594 @@
+[W 07:21:40.344 LabApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 07:21:41.130 LabApp] jupyter_tensorboard extension loaded.
+[I 07:21:41.621 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 07:21:41.621 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 07:21:41.627 LabApp] [Jupytext Server Extension] NotebookApp.contents_manager_class is (a subclass of) jupytext.TextFileContentsManager already - OK
+[I 07:21:41.628 LabApp] Serving notebooks from local directory: /root/data/model_test/WIL_model/scalar
+[I 07:21:41.628 LabApp] Jupyter Notebook 6.4.12 is running at:
+[I 07:21:41.628 LabApp] http://hostname:8888/
+[I 07:21:41.629 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:21:57.592 LabApp] Clearing invalid/expired login cookie username-deep-kbig-kr-18604
+[W 07:21:57.593 LabApp] Clearing invalid/expired login cookie username-deep-kbig-kr-18604
+[I 07:21:57.594 LabApp] 302 GET /lab? (220.72.153.39) 3.000000ms
+[I 07:22:00.172 LabApp] 302 POST /login?next=%2Flab%3F (220.72.153.39) 60.730000ms
+[I 07:22:02.960 LabApp] Build is up to date
+[W 07:22:04.513 LabApp] 404 GET /api/contents/data/model_test/WIL_model/trainer.py?content=0&1662880923032 (220.72.153.39): file or directory does not exist: 'data/model_test/WIL_model/trainer.py'
+[W 07:22:04.514 LabApp] file or directory does not exist: 'data/model_test/WIL_model/trainer.py'
+[W 07:22:04.514 LabApp] 404 GET /api/contents/data/model_test/WIL_model/trainer.py?content=0&1662880923032 (220.72.153.39) 3.600000ms referer=http://deep.kbig.kr:18604/lab?
+[W 07:22:04.515 LabApp] 404 GET /api/contents/data/model_test/WIL_model/Untitled.ipynb?content=0&1662880923031 (220.72.153.39): file or directory does not exist: 'data/model_test/WIL_model/Untitled.ipynb'
+[W 07:22:04.515 LabApp] file or directory does not exist: 'data/model_test/WIL_model/Untitled.ipynb'
+[W 07:22:04.516 LabApp] 404 GET /api/contents/data/model_test/WIL_model/Untitled.ipynb?content=0&1662880923031 (220.72.153.39) 3.850000ms referer=http://deep.kbig.kr:18604/lab?
+[W 07:22:05.152 LabApp] 404 GET /api/contents/data/model_test/WIL_model?1662880923672 (220.72.153.39): file or directory does not exist: 'data/model_test/WIL_model'
+[W 07:22:05.153 LabApp] file or directory does not exist: 'data/model_test/WIL_model'
+[W 07:22:05.153 LabApp] 404 GET /api/contents/data/model_test/WIL_model?1662880923672 (220.72.153.39) 2.600000ms referer=http://deep.kbig.kr:18604/lab?
+-\|/-\|/-[W 07:22:19.152 LabApp] 400 GET /api/contents/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7?format=text&type=file&content=1&1662880937665 (220.72.153.39): /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7 is not UTF-8 encoded
+[W 07:22:19.152 LabApp] /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7 is not UTF-8 encoded
+[W 07:22:19.153 LabApp] 400 GET /api/contents/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7?format=text&type=file&content=1&1662880937665 (220.72.153.39) 4.730000ms referer=http://deep.kbig.kr:18604/lab?
+[I 07:23:56.945 LabApp] Creating new notebook in 
+[I 07:23:57.040 LabApp] Saving Untitled.ipynb
+[I 07:23:57.300 LabApp] Kernel started: 1c351f29-80ec-4069-875b-0ecdd57f6b03, name: python3
+Event Multiplexer initializing.
+Event Multiplexer done initializing
+/opt/conda/lib/python3.8/site-packages/scipy/__init__.py:138: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.2)
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion} is required for this version of "
+Launching reload in a daemon thread
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Constructing EventAccumulator for /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662729712.4f9955ea5e0e.65042.0 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662732732.4f9955ea5e0e.65128.0
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662732732.4f9955ea5e0e.65128.0 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662735608.4f9955ea5e0e.65128.1
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662735608.4f9955ea5e0e.65128.1 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662738442.4f9955ea5e0e.65128.2
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662738442.4f9955ea5e0e.65128.2 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662741277.4f9955ea5e0e.65128.3
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662741277.4f9955ea5e0e.65128.3 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662744112.4f9955ea5e0e.65128.4
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662744112.4f9955ea5e0e.65128.4 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662746943.4f9955ea5e0e.65128.5
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662746943.4f9955ea5e0e.65128.5 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662749775.4f9955ea5e0e.65128.6
+Directory watcher advancing from /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662749775.4f9955ea5e0e.65128.6 to /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 3.737 secs
+[I 07:25:59.098 LabApp] Saving file at /Untitled.ipynb
+[I 07:25:59.099 LabApp] Saving Untitled.ipynb
+[I 07:25:59.109 LabApp] 301 GET /tensorboard/1 (220.72.153.39) 1.030000ms
+[I 07:25:59.124 LabApp] 200 GET /tensorboard/1/ (220.72.153.39) 2.67ms
+[I 07:25:59.198 LabApp] 200 GET /tensorboard/1/index.js?_file_hash=b2ecab87 (220.72.153.39) 2.87ms
+[I 07:25:59.883 LabApp] 200 GET /tensorboard/1/icon_bundle.svg (220.72.153.39) 1.98ms
+[I 07:25:59.925 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.43ms
+Plugin listing: is_active() for custom_scalars took 0.000 seconds
+Plugin listing: is_active() for images took 0.000 seconds
+Plugin listing: is_active() for audio took 0.000 seconds
+Plugin listing: is_active() for debugger-v2 took 0.000 seconds
+Plugin listing: is_active() for graphs took 0.000 seconds
+Plugin listing: is_active() for distributions took 0.000 seconds
+Plugin listing: is_active() for histograms took 0.000 seconds
+Plugin listing: is_active() for text took 0.000 seconds
+Plugin listing: is_active() for pr_curves took 0.000 seconds
+Plugin listing: is_active() for profile_redirect took 0.000 seconds
+Plugin listing: is_active() for hparams took 0.000 seconds
+Plugin listing: is_active() for mesh took 0.000 seconds
+Plugin listing: is_active() for projector took 0.001 seconds
+Plugin listing: is_active() for whatif took 0.000 seconds
+[I 07:25:59.931 LabApp] 200 GET /tensorboard/1/data/plugins_listing (220.72.153.39) 5.41ms
+FailedPreconditionError: /root/data/model_test/WIL_model/checkpoint; Is a directory
+/root/data/model_test/WIL_model/scalar/./../checkpoint: Checkpoint ignored
+[I 07:25:59.935 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.17ms
+[I 07:25:59.944 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.34ms
+[I 07:25:59.948 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.86ms
+[I 07:26:00.876 LabApp] 200 GET /font-roboto/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.81ms
+[I 07:26:00.886 LabApp] 200 GET /font-roboto/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2 (220.72.153.39) 1.97ms
+[I 07:26:05.926 LabApp] 200 GET /font-roboto/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.96ms
+[I 07:26:16.228 LabApp] Starting buffering for 1c351f29-80ec-4069-875b-0ecdd57f6b03:ef36ea98-878e-44e2-bd41-47f2aec02e6b
+[I 07:26:18.621 LabApp] Build is up to date
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:26:32.449 LabApp] 200 GET /tensorboard/1/ (220.72.153.39) 2.85ms
+[I 07:26:32.686 LabApp] 200 GET /tensorboard/1/icon_bundle.svg (220.72.153.39) 2.00ms
+[I 07:26:32.699 LabApp] 200 GET /font-roboto/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2 (220.72.153.39) 1.94ms
+[I 07:26:32.702 LabApp] 200 GET /font-roboto/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.77ms
+Plugin listing: is_active() for custom_scalars took 0.000 seconds
+Plugin listing: is_active() for images took 0.000 seconds
+Plugin listing: is_active() for audio took 0.000 seconds
+Plugin listing: is_active() for debugger-v2 took 0.000 seconds
+Plugin listing: is_active() for graphs took 0.000 seconds
+Plugin listing: is_active() for distributions took 0.000 seconds
+Plugin listing: is_active() for histograms took 0.000 seconds
+Plugin listing: is_active() for text took 0.000 seconds
+Plugin listing: is_active() for pr_curves took 0.000 seconds
+Plugin listing: is_active() for profile_redirect took 0.000 seconds
+Plugin listing: is_active() for hparams took 0.000 seconds
+Plugin listing: is_active() for mesh took 0.000 seconds
+Plugin listing: is_active() for projector took 0.001 seconds
+Plugin listing: is_active() for whatif took 0.000 seconds
+FailedPreconditionError: /root/data/model_test/WIL_model/checkpoint; Is a directory
+[I 07:26:32.713 LabApp] 200 GET /tensorboard/1/data/plugins_listing (220.72.153.39) 6.81ms
+/root/data/model_test/WIL_model/scalar/./../checkpoint: Checkpoint ignored
+[I 07:26:32.716 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 8.34ms
+[I 07:26:32.720 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.96ms
+[I 07:26:32.737 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.51ms
+[I 07:26:32.740 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.91ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[W 07:27:53.545 LabApp] Notebook Untitled.ipynb is not trusted
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:29:32.047 LabApp] Saving file at /Untitled.ipynb
+[I 07:29:32.049 LabApp] Saving Untitled.ipynb
+[I 07:29:35.856 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 3.35ms
+[I 07:29:35.868 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.03ms
+[I 07:29:39.538 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.09ms
+[I 07:29:43.959 LabApp] 200 GET /font-roboto/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.93ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:30:15.655 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.98ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:30:50.968 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.96ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:34:18.484 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.12ms
+[I 07:34:19.937 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.09ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:34:49.954 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.07ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:35:19.975 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.97ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:35:33.968 LabApp] Saving file at /Untitled.ipynb
+[I 07:35:33.970 LabApp] Saving Untitled.ipynb
+[I 07:35:49.986 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.09ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:36:19.990 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.99ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:36:42.274 LabApp] Starting buffering for 1c351f29-80ec-4069-875b-0ecdd57f6b03:7d25f41a-2e7c-49b4-a570-654ab13eee42
+[I 07:36:44.549 LabApp] Build is up to date
+[W 07:36:46.225 LabApp] Notebook Untitled.ipynb is not trusted
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[W 07:37:00.694 LabApp] 404 GET /api/contents/data?content=0&1662881819186 (220.72.153.39): file or directory does not exist: 'data'
+[W 07:37:00.695 LabApp] file or directory does not exist: 'data'
+[W 07:37:00.695 LabApp] 404 GET /api/contents/data?content=0&1662881819186 (220.72.153.39) 2.340000ms referer=http://deep.kbig.kr:18604/lab?
+[I 07:37:08.273 LabApp] Starting buffering for 1c351f29-80ec-4069-875b-0ecdd57f6b03:dcb7befb-1204-4602-98e0-cabb8ac56993
+[I 07:37:16.583 LabApp] 302 GET / (220.72.153.39) 0.870000ms
+[I 07:37:19.208 LabApp] Build is up to date
+[I 07:37:25.034 LabApp] 200 GET /tensorboard/1/ (220.72.153.39) 2.90ms
+[I 07:37:25.114 LabApp] 200 GET /font-roboto/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2 (220.72.153.39) 1.99ms
+[I 07:37:25.706 LabApp] 200 GET /tensorboard/1/icon_bundle.svg (220.72.153.39) 1.91ms
+[I 07:37:25.738 LabApp] 200 GET /font-roboto/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.87ms
+Plugin listing: is_active() for custom_scalars took 0.000 seconds
+Plugin listing: is_active() for images took 0.000 seconds
+Plugin listing: is_active() for audio took 0.000 seconds
+Plugin listing: is_active() for debugger-v2 took 0.000 seconds
+Plugin listing: is_active() for graphs took 0.000 seconds
+Plugin listing: is_active() for distributions took 0.000 seconds
+Plugin listing: is_active() for histograms took 0.000 seconds
+Plugin listing: is_active() for text took 0.000 seconds
+Plugin listing: is_active() for pr_curves took 0.000 seconds
+Plugin listing: is_active() for profile_redirect took 0.000 seconds
+Plugin listing: is_active() for hparams took 0.000 seconds
+Plugin listing: is_active() for mesh took 0.000 seconds
+Plugin listing: is_active() for projector took 0.001 seconds
+Plugin listing: is_active() for whatif took 0.000 seconds
+[I 07:37:25.751 LabApp] 200 GET /tensorboard/1/data/plugins_listing (220.72.153.39) 6.74ms
+FailedPreconditionError: /root/data/model_test/WIL_model/checkpoint; Is a directory
+/root/data/model_test/WIL_model/scalar/./../checkpoint: Checkpoint ignored
+[I 07:37:25.754 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 8.69ms
+[I 07:37:25.758 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.97ms
+[I 07:37:25.777 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.23ms
+[I 07:37:25.781 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.86ms
+[I 07:37:25.917 LabApp] 200 GET /tensorboard/1/data/plugin/scalars/tags (220.72.153.39) 3.24ms
+[I 07:37:25.952 LabApp] 200 GET /tensorboard/1/data/plugin/scalars/tags (220.72.153.39) 2.84ms
+[I 07:37:26.086 LabApp] 200 POST /tensorboard/1/data/plugin/scalars/scalars_multirun (220.72.153.39) 81.42ms
+[I 07:37:26.404 LabApp] 200 GET /font-roboto/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.79ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:37:38.479 LabApp] 200 GET /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/tags (220.72.153.39) 3.00ms
+[I 07:37:38.653 LabApp] 200 GET /font-roboto/vPcynSL0qHq_6dX7lKVByXYhjbSpvc47ee6xR_80Hnw.woff2 (220.72.153.39) 1.79ms
+[I 07:37:38.817 LabApp] 200 POST /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/timeSeries (220.72.153.39) 89.41ms
+[I 07:37:38.831 LabApp] 200 GET /tensorboard/1/chart_worker.js?_file_hash=8674f158 (220.72.153.39) 3.13ms
+[I 07:37:45.410 LabApp] 200 GET /font-roboto/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2 (220.72.153.39) 1.89ms
+[I 07:37:55.787 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.60ms
+Plugin listing: is_active() for custom_scalars took 0.000 seconds
+Plugin listing: is_active() for images took 0.000 seconds
+Plugin listing: is_active() for audio took 0.000 seconds
+Plugin listing: is_active() for debugger-v2 took 0.000 seconds
+Plugin listing: is_active() for graphs took 0.000 seconds
+Plugin listing: is_active() for distributions took 0.000 seconds
+Plugin listing: is_active() for histograms took 0.000 seconds
+Plugin listing: is_active() for text took 0.000 seconds
+Plugin listing: is_active() for pr_curves took 0.000 seconds
+Plugin listing: is_active() for profile_redirect took 0.000 seconds
+Plugin listing: is_active() for hparams took 0.000 seconds
+Plugin listing: is_active() for mesh took 0.000 seconds
+Plugin listing: is_active() for projector took 0.001 seconds
+Plugin listing: is_active() for whatif took 0.000 seconds
+FailedPreconditionError: /root/data/model_test/WIL_model/checkpoint; Is a directory
+[I 07:37:55.794 LabApp] 200 GET /tensorboard/1/data/plugins_listing (220.72.153.39) 5.91ms
+/root/data/model_test/WIL_model/scalar/./../checkpoint: Checkpoint ignored
+[I 07:37:55.796 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 7.14ms
+[I 07:37:55.800 LabApp] 200 GET /tensorboard/1/data/environment (220.72.153.39) 2.27ms
+[I 07:37:55.809 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.92ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:38:25.801 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.97ms
+[I 07:38:25.817 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.01ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:38:55.807 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.13ms
+[I 07:38:55.821 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.02ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:39:25.813 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.08ms
+[I 07:39:25.826 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.97ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:39:55.825 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.00ms
+[I 07:39:55.838 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.95ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:40:34.659 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.12ms
+[I 07:40:34.673 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.01ms
+[I 07:40:42.308 LabApp] 200 GET /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/tags (220.72.153.39) 2.95ms
+[I 07:40:42.462 LabApp] 200 POST /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/timeSeries (220.72.153.39) 85.06ms
+[I 07:40:55.963 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.82ms
+[I 07:40:55.965 LabApp] 200 GET /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/tags (220.72.153.39) 4.38ms
+[I 07:40:56.051 LabApp] 200 POST /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/timeSeries (220.72.153.39) 84.50ms
+[I 07:40:56.055 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.99ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:41:25.980 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.52ms
+[I 07:41:25.994 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.96ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.003 secs
+[I 07:41:55.994 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.10ms
+[I 07:41:56.008 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.04ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[I 07:42:26.000 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.11ms
+[I 07:42:26.014 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 2.00ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[W 07:42:32.056 LabApp] Notebook Untitled.ipynb is not trusted
+[I 07:42:34.747 LabApp] Starting buffering for 1c351f29-80ec-4069-875b-0ecdd57f6b03:67456cb8-61b5-4a06-a0cc-44dc5a266dc6
+[I 07:42:34.874 LabApp] 200 POST /tensorboard/1/experiment/defaultExperimentId/data/plugin/timeseries/timeSeries (220.72.153.39) 89.03ms
+[I 07:42:56.011 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.99ms
+[I 07:42:56.026 LabApp] 200 GET /tensorboard/1/data/runs (220.72.153.39) 1.98ms
+TensorBoard reload process beginning
+Starting AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+GetLogdirSubdirectories: Starting to list directories via walking.
+Adding run from directory /root/data/model_test/WIL_model/scalar/
+Done with AddRunsFromDirectory: /root/data/model_test/WIL_model/scalar/
+TensorBoard reload process: Reload the whole Multiplexer
+Beginning EventMultiplexer.Reload()
+Reloading runs serially (one after another) on the main thread.
+No path found after /root/data/model_test/WIL_model/scalar/events.out.tfevents.1662752610.4f9955ea5e0e.65128.7
+Finished with EventMultiplexer.Reload()
+TensorBoard done reloading. Load took 0.002 secs
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

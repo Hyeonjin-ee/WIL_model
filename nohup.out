@@ -1,0 +1,55 @@
+[W 15:31:06.646 LabApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:31:07.467 LabApp] jupyter_tensorboard extension loaded.
+[I 15:31:07.985 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 15:31:07.985 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 15:31:07.991 LabApp] [Jupytext Server Extension] NotebookApp.contents_manager_class is (a subclass of) jupytext.TextFileContentsManager already - OK
+[I 15:31:07.993 LabApp] Serving notebooks from local directory: /root/data/model_test/WIL_model
+[I 15:31:07.993 LabApp] Jupyter Notebook 6.4.12 is running at:
+[I 15:31:07.993 LabApp] http://hostname:8888/
+[I 15:31:07.993 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:31:08.266 LabApp] Clearing invalid/expired login cookie username-deep-kbig-kr-18604
+[W 15:31:08.268 LabApp] Clearing invalid/expired login cookie username-deep-kbig-kr-18604
+[W 15:31:08.268 LabApp] Forbidden
+[W 15:31:08.269 LabApp] 403 GET /api/contents/data?content=1&1663482663707 (220.72.153.39) 4.750000ms referer=http://deep.kbig.kr:18604/lab?
+[W 15:31:08.270 LabApp] Forbidden
+[W 15:31:08.270 LabApp] 403 GET /api/terminals?1663482663709 (220.72.153.39) 3.270000ms referer=http://deep.kbig.kr:18604/lab?
+[W 15:31:08.272 LabApp] Clearing invalid/expired login cookie username-deep-kbig-kr-18604
+[W 15:31:08.272 LabApp] Forbidden
+[W 15:31:08.273 LabApp] 403 GET /api/kernels?1663482663710 (220.72.153.39) 2.120000ms referer=http://deep.kbig.kr:18604/lab?
+[W 15:31:08.750 LabApp] Forbidden
+[W 15:31:08.750 LabApp] 403 GET /api/tensorboard?1663482665240 (220.72.153.39) 1.520000ms referer=http://deep.kbig.kr:18604/lab?
+[I 15:31:08.981 LabApp] 302 GET /lab? (220.72.153.39) 1.410000ms
+[I 15:31:11.335 LabApp] 302 POST /login?next=%2Flab%3F (220.72.153.39) 59.780000ms
+[I 15:31:14.103 LabApp] Build is up to date
+[W 15:31:16.219 LabApp] 404 GET /api/contents/data/model_test/WIL_model/Untitled.ipynb?content=0&1663482672177 (220.72.153.39): file or directory does not exist: 'data/model_test/WIL_model/Untitled.ipynb'
+[W 15:31:16.221 LabApp] file or directory does not exist: 'data/model_test/WIL_model/Untitled.ipynb'
+[W 15:31:16.221 LabApp] 404 GET /api/contents/data/model_test/WIL_model/Untitled.ipynb?content=0&1663482672177 (220.72.153.39) 6.400000ms referer=http://deep.kbig.kr:18604/lab?
+-\|/-\|/-[W 15:33:12.750 LabApp] Notebook Untitled.ipynb is not trusted
+[I 15:33:13.038 LabApp] Kernel started: d55d9670-a65f-4d5b-8cf5-fb24a99121fe, name: python3
+[I 15:35:13.612 LabApp] Saving file at /Untitled.ipynb
+[I 15:35:13.614 LabApp] Saving Untitled.ipynb
+[W 15:35:13.615 LabApp] Notebook Untitled.ipynb is not trusted
+[I 17:08:30.784 LabApp] Kernel shutdown: d55d9670-a65f-4d5b-8cf5-fb24a99121fe
+[W 17:08:31.241 LabApp] delete /Untitled.ipynb
+[W 17:08:39.959 LabApp] delete /wil
+[W 17:08:45.955 LabApp] delete /db.sqlite3
+[W 17:08:59.735 LabApp] delete /data/dataset.csv
+[W 17:08:59.747 LabApp] delete /data/dataset_0915.txt
+[W 17:08:59.757 LabApp] delete /data/dataset.txt
+[W 17:08:59.762 LabApp] delete /data/test.csv
+[W 17:08:59.770 LabApp] delete /data/train.csv
+[W 17:08:59.778 LabApp] delete /data/train.txt
+[W 17:08:59.787 LabApp] delete /data/test.txt
+[W 17:09:17.883 LabApp] delete /script/git_push.sh
+[W 17:22:08.456 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:22:08.632 LabApp] Kernel started: 8454b67b-eaeb-4fb8-b1a4-b8f0fdfe6974, name: python3
+[I 17:22:12.941 LabApp] Kernel shutdown: 8454b67b-eaeb-4fb8-b1a4-b8f0fdfe6974
+[W 17:22:13.406 LabApp] delete /API/Untitled.ipynb
+[I 17:22:26.593 LabApp] Saving file at /API/views.py
+[I 17:34:09.826 LabApp] Saving file at /Dockerfile
+[I 18:45:04.223 LabApp] Creating new notebook in /API
+[I 18:45:04.228 LabApp] Saving Untitled.ipynb
+[I 18:45:04.442 LabApp] Kernel started: 857e768b-26f1-45c3-ba70-9c6748d16776, name: python3
+[I 18:47:04.964 LabApp] Saving file at /API/Untitled.ipynb
+[I 18:47:04.966 LabApp] Saving Untitled.ipynb
+[I 22:48:37.503 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:bac84bcf-8c62-4e9f-9183-08f75ec57ddc
