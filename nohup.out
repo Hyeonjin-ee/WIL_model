@@ -53,3 +53,205 @@
 [I 18:47:04.964 LabApp] Saving file at /API/Untitled.ipynb
 [I 18:47:04.966 LabApp] Saving Untitled.ipynb
 [I 22:48:37.503 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:bac84bcf-8c62-4e9f-9183-08f75ec57ddc
+[I 11:45:23.177 LabApp] 302 GET / (112.220.17.226) 1.710000ms
+[I 11:45:26.649 LabApp] Build is up to date
+[W 11:45:28.395 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 11:47:28.811 LabApp] Saving file at /API/Untitled.ipynb
+[I 11:47:28.813 LabApp] Saving Untitled.ipynb
+[I 14:57:46.764 LabApp] Saving file at /trainer.py
+[I 14:58:00.201 LabApp] Saving file at /trainer.py
+[I 15:00:09.199 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:00:09.201 LabApp] Saving Untitled.ipynb
+[I 15:01:33.658 LabApp] Saving file at /preprocessing.py
+[I 15:02:09.266 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:02:09.268 LabApp] Saving Untitled.ipynb
+[I 15:02:20.544 LabApp] Saving file at /main.py
+[I 15:03:03.884 LabApp] Saving file at /main.py
+[I 15:04:10.157 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:04:10.159 LabApp] Saving Untitled.ipynb
+[I 15:05:58.828 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:05:58.831 LabApp] Saving Untitled.ipynb
+[I 15:07:58.905 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:07:58.907 LabApp] Saving Untitled.ipynb
+[I 15:09:58.964 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:09:58.966 LabApp] Saving Untitled.ipynb
+[I 15:15:59.054 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:15:59.056 LabApp] Saving Untitled.ipynb
+[I 15:17:59.135 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:17:59.137 LabApp] Saving Untitled.ipynb
+[I 15:19:59.203 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:19:59.205 LabApp] Saving Untitled.ipynb
+[I 15:49:09.249 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:49:09.251 LabApp] Saving Untitled.ipynb
+[I 15:51:09.335 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:51:09.337 LabApp] Saving Untitled.ipynb
+[I 15:53:09.409 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:53:09.411 LabApp] Saving Untitled.ipynb
+[I 15:53:39.844 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:53:39.846 LabApp] Saving Untitled.ipynb
+[I 15:55:39.922 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:55:39.924 LabApp] Saving Untitled.ipynb
+[I 15:57:40.010 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:57:40.012 LabApp] Saving Untitled.ipynb
+[W 15:58:06.731 LabApp] delete /Dockerfile
+[I 15:59:40.279 LabApp] Saving file at /API/Untitled.ipynb
+[I 15:59:40.281 LabApp] Saving Untitled.ipynb
+[I 16:01:41.275 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:01:41.277 LabApp] Saving Untitled.ipynb
+[I 16:03:42.283 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:03:42.285 LabApp] Saving Untitled.ipynb
+[I 16:04:00.911 LabApp] Saving file at /WIL_model/settings.py
+[I 16:05:43.276 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:05:43.278 LabApp] Saving Untitled.ipynb
+[I 16:07:33.645 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:07:33.647 LabApp] Saving Untitled.ipynb
+[I 16:08:05.098 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:08:05.100 LabApp] Saving Untitled.ipynb
+[I 16:08:31.569 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:08:31.572 LabApp] Saving Untitled.ipynb
+[I 16:10:32.285 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:10:32.287 LabApp] Saving Untitled.ipynb
+[I 16:12:32.593 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:12:32.595 LabApp] Saving Untitled.ipynb
+[I 16:17:49.293 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:17:49.295 LabApp] Saving Untitled.ipynb
+[I 16:17:56.739 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:17:56.741 LabApp] Saving Untitled.ipynb
+[I 16:19:57.291 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:19:57.293 LabApp] Saving Untitled.ipynb
+[I 16:21:58.339 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:21:58.341 LabApp] Saving Untitled.ipynb
+[I 16:27:59.345 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:27:59.347 LabApp] Saving Untitled.ipynb
+[I 16:30:00.331 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:30:00.333 LabApp] Saving Untitled.ipynb
+[I 16:33:59.487 LabApp] Saving file at /WIL_model/settings.py
+[I 16:34:52.618 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:34:52.620 LabApp] Saving Untitled.ipynb
+[I 16:36:33.646 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:36:33.648 LabApp] Saving Untitled.ipynb
+[I 16:38:33.720 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:38:33.722 LabApp] Saving Untitled.ipynb
+[I 16:40:33.784 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:40:33.786 LabApp] Saving Untitled.ipynb
+[I 16:40:43.198 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:40:43.200 LabApp] Saving Untitled.ipynb
+[I 16:40:50.323 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:40:50.325 LabApp] Saving Untitled.ipynb
+[I 16:42:50.386 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:42:50.388 LabApp] Saving Untitled.ipynb
+[I 16:44:50.451 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:44:50.453 LabApp] Saving Untitled.ipynb
+[I 16:46:34.175 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:46:34.177 LabApp] Saving Untitled.ipynb
+[I 16:53:45.189 LabApp] Creating new notebook in 
+[I 16:53:45.193 LabApp] Saving Untitled.ipynb
+[I 16:53:45.432 LabApp] Kernel started: 343bc299-4d28-4350-aef8-fb94653a1a03, name: python3
+[I 16:53:46.947 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:05845b44-d9d1-489a-a86b-63cff7d99cf3
+[I 16:54:36.402 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:54:36.404 LabApp] Saving Untitled.ipynb
+[I 16:55:45.374 LabApp] Saving file at /Untitled.ipynb
+[I 16:55:45.376 LabApp] Saving Untitled.ipynb
+[I 16:56:36.479 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:56:36.481 LabApp] Saving Untitled.ipynb
+[I 16:57:25.290 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:56074390-fc1c-4287-9d5d-ba3fed0d283c
+[I 16:57:25.291 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:e31d49f2-8897-4476-be77-0c7164fe0475
+[I 16:57:27.670 LabApp] Build is up to date
+[W 16:57:29.526 LabApp] Notebook Untitled.ipynb is not trusted
+[W 16:57:29.537 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 16:59:30.373 LabApp] Saving file at /API/Untitled.ipynb
+[I 16:59:30.375 LabApp] Saving Untitled.ipynb
+[W 16:59:30.376 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:00:55.858 LabApp] Saving file at /WIL_model/settings.py
+[I 17:01:30.448 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:01:30.450 LabApp] Saving Untitled.ipynb
+[W 17:01:30.451 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:03:05.335 LabApp] Saving file at /WIL_model/settings.py
+[I 17:03:30.391 LabApp] Saving file at /Untitled.ipynb
+[I 17:03:30.393 LabApp] Saving Untitled.ipynb
+[I 17:03:30.523 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:03:30.525 LabApp] Saving Untitled.ipynb
+[W 17:03:30.526 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:05:03.942 LabApp] Saving file at /preprocessing.py
+[W 17:06:09.744 LabApp] delete /data/dataset_0919.txt
+[I 17:06:12.816 LabApp] Saving file at /preprocessing.py
+[I 17:07:26.056 LabApp] Saving file at /preprocessing.py
+[I 17:07:30.494 LabApp] Saving file at /Untitled.ipynb
+[I 17:07:30.496 LabApp] Saving Untitled.ipynb
+[I 17:08:47.587 LabApp] Saving file at /preprocessing.py
+[I 17:11:30.572 LabApp] Saving file at /Untitled.ipynb
+[I 17:11:30.573 LabApp] Saving Untitled.ipynb
+[I 17:13:20.278 LabApp] Saving file at /preprocessing.py
+[I 17:13:30.613 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:13:30.615 LabApp] Saving Untitled.ipynb
+[W 17:13:30.616 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:13:30.626 LabApp] Saving file at /Untitled.ipynb
+[I 17:13:30.628 LabApp] Saving Untitled.ipynb
+[I 17:14:08.454 LabApp] Saving file at /preprocessing.py
+[I 17:16:32.729 LabApp] Saving file at /preprocessing.py
+[I 17:18:06.131 LabApp] Saving file at /data/dataset_0919.txt
+[I 17:18:25.218 LabApp] Saving file at /data/dataset_0919.txt
+[I 17:18:47.017 LabApp] Saving file at /preprocessing.py
+[I 17:31:22.098 LabApp] Kernel interrupted: 857e768b-26f1-45c3-ba70-9c6748d16776
+[I 17:32:10.458 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:32:10.460 LabApp] Saving Untitled.ipynb
+[W 17:32:10.461 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:34:11.439 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:34:11.441 LabApp] Saving Untitled.ipynb
+[W 17:34:11.441 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:35:18.293 LabApp] Saving file at /preprocessing.py
+[I 17:42:30.230 LabApp] Saving file at /main.py
+[I 17:44:15.455 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:44:15.458 LabApp] Saving Untitled.ipynb
+[W 17:44:15.458 LabApp] Notebook API/Untitled.ipynb is not trusted
+[W 17:44:39.300 LabApp] delete /data/test.txt
+[W 17:44:39.303 LabApp] delete /data/train.txt
+[I 17:45:03.964 LabApp] Saving file at /main.py
+[I 17:45:53.483 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:b3668f21-0912-4ac9-bcaf-848a4d55fe37
+[I 17:45:53.484 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:3a1d5ae4-49fd-4254-8ad4-95a42c275020
+[I 17:46:41.701 LabApp] 302 GET / (112.220.17.226) 0.870000ms
+[I 17:46:44.524 LabApp] Build is up to date
+[W 17:46:46.489 LabApp] Notebook API/Untitled.ipynb is not trusted
+[W 17:46:46.495 LabApp] Notebook Untitled.ipynb is not trusted
+[I 17:48:46.645 LabApp] Saving file at /API/Untitled.ipynb
+[I 17:48:46.648 LabApp] Saving Untitled.ipynb
+[W 17:48:46.648 LabApp] Notebook API/Untitled.ipynb is not trusted
+[I 17:54:23.766 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:6286cd31-18d1-4d3b-8761-c392235ec4be
+[I 17:54:23.767 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:4d0bbb85-b993-4ce2-a583-c5d1d4899ec2
+[I 00:18:56.370 LabApp] Restoring connection for 343bc299-4d28-4350-aef8-fb94653a1a03:4d0bbb85-b993-4ce2-a583-c5d1d4899ec2
+[I 00:18:59.418 LabApp] Restoring connection for 857e768b-26f1-45c3-ba70-9c6748d16776:6286cd31-18d1-4d3b-8761-c392235ec4be
+[I 00:20:54.134 LabApp] Saving file at /trainer.py
+[I 00:20:58.710 LabApp] Saving file at /trainer.py
+[I 07:39:08.899 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:4d0bbb85-b993-4ce2-a583-c5d1d4899ec2
+[I 07:39:08.900 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:6286cd31-18d1-4d3b-8761-c392235ec4be
+[I 07:39:23.405 LabApp] Restoring connection for 343bc299-4d28-4350-aef8-fb94653a1a03:4d0bbb85-b993-4ce2-a583-c5d1d4899ec2
+[I 07:39:23.440 LabApp] Restoring connection for 857e768b-26f1-45c3-ba70-9c6748d16776:6286cd31-18d1-4d3b-8761-c392235ec4be
+[W 08:09:23.406 LabApp] WebSocket ping timeout after 119988 ms.
+[W 08:09:23.441 LabApp] WebSocket ping timeout after 119988 ms.
+[I 08:09:28.409 LabApp] Starting buffering for 343bc299-4d28-4350-aef8-fb94653a1a03:4d0bbb85-b993-4ce2-a583-c5d1d4899ec2
+[I 08:09:28.442 LabApp] Starting buffering for 857e768b-26f1-45c3-ba70-9c6748d16776:6286cd31-18d1-4d3b-8761-c392235ec4be
+[I 09:10:15.518 LabApp] Build is up to date
+[W 09:10:17.473 LabApp] Notebook API/Untitled.ipynb is not trusted
+[W 09:10:17.479 LabApp] Notebook Untitled.ipynb is not trusted
+[I 09:12:18.476 LabApp] Saving file at /Untitled.ipynb
+[I 09:12:18.477 LabApp] Saving Untitled.ipynb
+[I 09:12:54.655 LabApp] Saving file at /preprocessing.py
+[I 09:14:23.757 LabApp] Saving file at /preprocessing.py
+[I 09:18:03.156 LabApp] Saving file at /main.py
+[I 09:20:38.175 LabApp] Saving file at /main.py
+[I 09:22:20.516 LabApp] Saving file at /Untitled.ipynb
+[I 09:22:20.518 LabApp] Saving Untitled.ipynb
+[I 09:28:38.501 LabApp] Saving file at /main.py
+[I 09:28:46.843 LabApp] Saving file at /main.py
+[I 09:29:43.470 LabApp] Saving file at /main.py
+[I 09:32:35.817 LabApp] Saving file at /main.py
+[I 09:34:20.523 LabApp] Saving file at /main.py
+[I 09:36:25.496 LabApp] Saving file at /trainer.py
+[I 09:38:29.856 LabApp] Saving file at /main.py
+[I 09:51:06.300 LabApp] Saving file at /data_loader.py
+[I 09:51:59.537 LabApp] Saving file at /data_loader.py
+[I 09:53:30.066 LabApp] Saving file at /main.py
+[I 09:54:28.934 LabApp] Saving file at /main.py
+[I 09:54:57.255 LabApp] Saving file at /main.py
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
