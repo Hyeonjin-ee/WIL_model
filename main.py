@@ -28,9 +28,9 @@ if __name__ == '__main__':
 
     parser.add_argument("--task", default="nsmc", type=str, help="The name of the task to train")
     parser.add_argument("--model_dir", default="./model", type=str, help="Path to save, load model")
-    parser.add_argument("--data_dir", default="./data", type=str, help="The input data dir")
-    parser.add_argument("--train_file", default='train_0920.txt', type=str, help="Train file")
-    parser.add_argument("--test_file", default='test_0920.txt', type=str, help="Test file")
+    parser.add_argument("--data_dir", default="/root/data/model_test/WIL_model/data", type=str, help="The input data dir")
+    parser.add_argument("--train_file", default='train.txt', type=str, help="Train file")
+    parser.add_argument("--test_file", default='test.txt', type=str, help="Test file")
     
     parser.add_argument("--model_type", default="kobert", type=str, help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
 

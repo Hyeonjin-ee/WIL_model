@@ -1,8 +1,7 @@
-
 import os
 import logging
 from tqdm import tqdm, trange
-import datetime
+from datetime import date
 import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
@@ -188,7 +187,7 @@ class Trainer(object):
 
         # Save training arguments together with the trained model
         today = date.today().strftime("%m%d") # 날짜 설정을 위한 today변수 생성
-        torch.save(self.args, os.path.join(self.args.model_dir, 'training_args_0920.bin'))
+        torch.save(self.args, os.path.join(self.args.model_dir, f'training_args_{today}.bin'))
         logger.info("Saving model checkpoint to %s", self.args.model_dir)
 
     def load_model(self):
