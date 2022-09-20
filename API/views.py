@@ -16,7 +16,7 @@ from utils import init_logger, load_tokenizer
 logger = logging.getLogger(__name__)
 
 
-args = torch.load(os.path.join("/home/WIL_model/model", 'training_args.bin'))
+args = torch.load(os.path.join("./model", 'training_args.bin'))
 device = "cpu"
 model = AutoModelForSequenceClassification.from_pretrained(args.model_dir)  # Config will be automatically loaded from model_dir
 model.to(device)
