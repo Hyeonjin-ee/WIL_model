@@ -61,7 +61,7 @@ class InputFeatures(object):
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
 
-class NsmcProcessor(object):
+class ReviewProcessor(object):
     """Processor for the NSMC data set """
 
     def __init__(self, args):
@@ -107,7 +107,7 @@ class NsmcProcessor(object):
 
 
 processors = {
-    "nsmc": NsmcProcessor,
+    "review": ReviewProcessor,
 }
 
 

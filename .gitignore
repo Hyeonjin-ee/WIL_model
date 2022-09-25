@@ -4,6 +4,7 @@
 # files
 script/
 scalar/
+*.ipynb
 
 ### Django ###
 *.idea

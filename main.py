@@ -16,6 +16,7 @@ def main(args):
     trainer = Trainer(args, train_dataset, dev_dataset, test_dataset)
 
     if args.do_train:
+        trainer.load_model()
         trainer.train()
 
     if args.do_eval:
@@ -26,8 +27,8 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--task", default="nsmc", type=str, help="The name of the task to train")
-    parser.add_argument("--model_dir", default="./model", type=str, help="Path to save, load model")
+    parser.add_argument("--task", default="review", type=str, help="The name of the task to train")
+    parser.add_argument("--model_dir", default="/root/data/model_test/WIL_model/model", type=str, help="Path to save, load model")
     parser.add_argument("--data_dir", default="/root/data/model_test/WIL_model/data", type=str, help="The input data dir")
     parser.add_argument("--train_file", default='train.txt', type=str, help="Train file")
     parser.add_argument("--test_file", default='test.txt', type=str, help="Test file")
@@ -36,10 +37,10 @@ if __name__ == '__main__':
 
     parser.add_argument('--seed', type=int, default=42, help="random seed for initialization")
     parser.add_argument("--train_batch_size", default=32, type=int, help="Batch size for training.")
-    parser.add_argument("--eval_batch_size", default=64, type=int, help="Batch size for evaluation.")
+    parser.add_argument("--eval_batch_size", default=32, type=int, help="Batch size for evaluation.")
     parser.add_argument("--max_seq_len", default=50, type=int, help="The maximum total input sequence length after tokenization.")
     parser.add_argument("--learning_rate", default=2e-5, type=float, help="The initial learning rate for Adam.")
-    parser.add_argument("--num_train_epochs", default=2.0, type=float, help="Total number of training epochs to perform.")
+    parser.add_argument("--num_train_epochs", default=4.0, type=float, help="Total number of training epochs to perform.")
     parser.add_argument("--weight_decay", default=0.0, type=float, help="Weight decay if we apply some.")
     parser.add_argument('--gradient_accumulation_steps', type=int, default=1,
                         help="Number of updates steps to accumulate before performing a backward/update pass.")
@@ -58,4 +59,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     args.model_name_or_path = MODEL_PATH_MAP[args.model_type]
+    # 'kobert': 'monologg/kobert'['kobert']
     main(args)

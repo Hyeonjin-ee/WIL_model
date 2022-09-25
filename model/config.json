@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "monologg/kobert",
+  "_name_or_path": "/root/data/model_test/WIL_model/model",
   "architectures": [
     "BertForSequenceClassification"
   ],

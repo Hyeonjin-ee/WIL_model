@@ -4,14 +4,12 @@ from tqdm import tqdm, trange
 from datetime import date
 import numpy as np
 import torch
-from torch.utils.tensorboard import SummaryWriter
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
 
 from utils import compute_metrics, get_label, MODEL_CLASSES
 
 logger = logging.getLogger(__name__)
-writer = SummaryWriter('scalar/')
 
 
 class Trainer(object):
@@ -25,13 +23,15 @@ class Trainer(object):
         self.num_labels = len(self.label_lst)
 
         self.config_class, self.model_class, _ = MODEL_CLASSES[args.model_type]
-
-        self.config = self.config_class.from_pretrained(args.model_name_or_path,
+        # Model_classes = (BertConfig, BertForSequenceClassification, KobertTokenizer)
+        # args.model_type = kobert 
+        
+        self.config = self.config_class.from_pretrained(self.args.model_dir,
                                                         num_labels=self.num_labels, 
                                                         finetuning_task=args.task,
                                                         id2label={str(i): label for i, label in enumerate(self.label_lst)},
                                                         label2id={label: i for i, label in enumerate(self.label_lst)})
-        self.model = self.model_class.from_pretrained(args.model_name_or_path, config=self.config)
+        self.model = self.model_class.from_pretrained(self.args.model_dir, config=self.config)
 
         # GPU or CPU
         self.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
@@ -90,9 +90,7 @@ class Trainer(object):
                     loss = loss / self.args.gradient_accumulation_steps
 
                 loss.backward()
-                
-                writer.add_scalar("Loss/train", loss, self.args.num_train_epochs) # 텐서보드에 각 epochs당 loss값 저장
-                
+
                 tr_loss += loss.item()
                 if (step + 1) % self.args.gradient_accumulation_steps == 0:
                     torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
@@ -101,21 +99,24 @@ class Trainer(object):
                     scheduler.step()  # Update learning rate schedule
                     self.model.zero_grad()
                     global_step += 1
-
-                    if self.args.logging_steps > 0 and global_step % self.args.logging_steps == 0:
-                        self.evaluate("test")  # Only test set available for NSMC
-
-                    if self.args.save_steps > 0 and global_step % self.args.save_steps == 0:
-                        self.save_model()
+                    
+#                     if self.args.logging_steps > 0 and global_step % self.args.logging_steps == 0:
+#                         self.evaluate("test")  # Only test set available for NSMC
+#                     if self.args.save_steps > 0 and global_step % self.args.save_steps == 0:
+#                         self.save_model()
 
                 if 0 < self.args.max_steps < global_step:
                     epoch_iterator.close()
+                    logger.info("close")
                     break
 
             if 0 < self.args.max_steps < global_step:
                 train_iterator.close()
                 break
-
+                
+            self.save_model() # if문 없이 여기서 돌려보자 
+            logger.info("Saving model checkpoint to %s", self.args.model_dir)
+            
         return global_step, tr_loss / global_step
 
     def evaluate(self, mode):
@@ -174,20 +175,19 @@ class Trainer(object):
         logger.info("***** Eval results *****")
         for key in sorted(results.keys()):
             logger.info("  %s = %s", key, str(results[key]))
-        
-        writer.close() # 학습이 종료된 후에는 반드시 선언 ! 
+
         return results
 
     def save_model(self):
         # Save model checkpoint (Overwrite)
         if not os.path.exists(self.args.model_dir):
-            os.makedirs(self.args.model_dir) 
+            os.makedirs(self.args.model_dir)
         model_to_save = self.model.module if hasattr(self.model, 'module') else self.model
         model_to_save.save_pretrained(self.args.model_dir)
 
         # Save training arguments together with the trained model
-        today = date.today().strftime("%m%d") # 날짜 설정을 위한 today변수 생성
-        torch.save(self.args, os.path.join(self.args.model_dir, f'training_args_{today}.bin'))
+        today = date.today().strftime("%m%d")
+        torch.save(self.args, os.path.join(self.args.model_dir, 'training_args_test.bin'))
         logger.info("Saving model checkpoint to %s", self.args.model_dir)
 
     def load_model(self):
