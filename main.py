@@ -16,7 +16,7 @@ def main(args):
     trainer = Trainer(args, train_dataset, dev_dataset, test_dataset)
 
     if args.do_train:
-        trainer.load_model()
+#         trainer.load_model()
         trainer.train()
 
     if args.do_eval:
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--task", default="review", type=str, help="The name of the task to train")
-    parser.add_argument("--model_dir", default="/root/data/model_test/WIL_model/model", type=str, help="Path to save, load model")
+    parser.add_argument("--model_dir", default="./model", type=str, help="Path to save, load model")
     parser.add_argument("--data_dir", default="/root/data/model_test/WIL_model/data", type=str, help="The input data dir")
     parser.add_argument("--train_file", default='train.txt', type=str, help="Train file")
     parser.add_argument("--test_file", default='test.txt', type=str, help="Test file")

@@ -1,10 +1,10 @@
 {
-  "_name_or_path": "/root/data/model_test/WIL_model/model",
+  "_name_or_path": "monologg/kobert",
   "architectures": [
     "BertForSequenceClassification"
   ],
   "attention_probs_dropout_prob": 0.1,
-  "finetuning_task": "nsmc",
+  "finetuning_task": "review",
   "gradient_checkpointing": false,
   "hidden_act": "gelu",
   "hidden_dropout_prob": 0.1,

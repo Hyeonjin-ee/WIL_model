@@ -26,12 +26,12 @@ class Trainer(object):
         # Model_classes = (BertConfig, BertForSequenceClassification, KobertTokenizer)
         # args.model_type = kobert 
         
-        self.config = self.config_class.from_pretrained(self.args.model_dir,
+        self.config = self.config_class.from_pretrained(args.model_name_or_path,
                                                         num_labels=self.num_labels, 
                                                         finetuning_task=args.task,
                                                         id2label={str(i): label for i, label in enumerate(self.label_lst)},
                                                         label2id={label: i for i, label in enumerate(self.label_lst)})
-        self.model = self.model_class.from_pretrained(self.args.model_dir, config=self.config)
+        self.model = self.model_class.from_pretrained(args.model_name_or_path, config=self.config)
 
         # GPU or CPU
         self.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
@@ -187,7 +187,7 @@ class Trainer(object):
 
         # Save training arguments together with the trained model
         today = date.today().strftime("%m%d")
-        torch.save(self.args, os.path.join(self.args.model_dir, 'training_args_test.bin'))
+        torch.save(self.args, os.path.join(self.args.model_dir, 'training_args.bin'))
         logger.info("Saving model checkpoint to %s", self.args.model_dir)
 
     def load_model(self):
