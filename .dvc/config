@@ -1,0 +1,6 @@
+[core]
+    remote = storage
+['remote "model"']
+    url = /root/data/WIL_model/WIL_model
+['remote "storage"']
+    url = gdrive://1kne4q6UFJ7PONltvt7_CrFrWpD2ekkz3
