@@ -1,6 +1,11 @@
 [core]
-    remote = storage
+    remote = test
 ['remote "model"']
     url = /root/data/WIL_model/WIL_model
 ['remote "storage"']
     url = gdrive://1kne4q6UFJ7PONltvt7_CrFrWpD2ekkz3
+    gdrive_client_id = 928795596717-v67140084u8fi1aelvg8skqam42dv817.apps.googleusercontent.com
+    gdrive_client_secret = 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
+    gdrive_use_service_account = true
+['remote "test"']
+    url = gdrive://1tPby2MUiI_OMdN-I6EoSj8upUIQnxwte
